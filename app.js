@@ -14,7 +14,7 @@ const contactContent = "Scelerisque eleifend donec pretium vulputate sapien. Rho
 
 const app = express();
 
-mongoose.connect("mongodb+srv://admin-jeff:password12345678@cluster0.rauxl.mongodb.net/blogDB", {useNewUrlParser: true,useUnifiedTopology: true,useFindAndModify: false})
+mongoose.connect("mongodb+srv://admin-jeff:password1-8@cluster0.rauxl.mongodb.net/blogDB", {useNewUrlParser: true,useUnifiedTopology: true,useFindAndModify: false})
 
 
 app.set('view engine', 'ejs');
